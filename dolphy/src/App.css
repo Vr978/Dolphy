@@ -1,0 +1,133 @@
+
+
+.logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Adjust spacing from top */
+}
+
+.container {
+  display: flex;
+  background-image: url('./assets/img/banner-bg.png'); /* Replace with your image path */
+  flex-direction: column;
+  align-items: center;
+  min-height: 120vh; /* Ensure full viewport height */
+  background-color: lightgreen; /* Set your desired background color */
+}
+
+@keyframes changeColor {
+  0% { color: #f9f7f7; } /* Starting color */
+  50% { color: #849df6; } /* Midway color */
+  100% { color: #f8b673; } /* Ending color */
+}
+
+.containerlogo{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+
+}
+
+.containerlogo h1{
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 15px;
+  animation: changeColor 6s infinite;
+}
+
+.containersm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Distribute items with space between them */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+#prediction {
+  margin-top: 20px;
+  text-align: center;
+  background-color: white; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.precautions-container {
+  width: 900px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+label {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px 30px ; /* Adjust to only apply vertical margin */
+}
+
+input[type="text"] {
+  position: relative;
+  right: 40px;
+  width: 300px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 16px;
+  margin-right: 10px; /* Optional: Adjust spacing */
+}
+
+button {
+  background-color: #e44a12; /* Green background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #33c6e7; /* Darker green on hover */
+}
+
+.notav{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+  margin-left: 10px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: background-color 0.3s ease;
+}

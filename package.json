@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "flask-cors": "^0.0.1",
+    "react-bootstrap": "^2.10.4",
+    "react-bootstrap-icons": "^1.11.4",
+    "react-markdown": "^9.0.1"
+  }
+}

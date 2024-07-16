@@ -10,5 +10,5 @@ Precautionary Advice: Integrated AI agent powered by Google Gemini provides tail
 Technological Stack: Flask serves as the robust backend server, handling data processing and model inference, while React offers a dynamic and responsive user interface.
 
 ## Future Enhancements 🌟
-Advanced AI Integration: Plan to replace Google Gemini with a chatbot trained on MindsDB using LangChain and OpenAI GPT-4 for enhanced interaction and intelligent responses.
-Enhanced User Experience: Implement features like image recognition and voice input for seamless user interaction and accessibility.
+1. Advanced AI Integration: Plan to replace Google Gemini with a chatbot trained on MindsDB using LangChain and OpenAI GPT-4 for enhanced interaction and intelligent responses.
+2. Enhanced User Experience: Implement features like image recognition and voice input for seamless user interaction and accessibility.

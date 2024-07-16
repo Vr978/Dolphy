@@ -21,6 +21,11 @@ The Current Project uses Gemini-pro for text generation. Prompt Engineering is d
 ![UI image](dolphy/src/assets/img/UI1.png)
 ![UI image](dolphy/src/assets/img/UI2.png)
 
+## Mindsdb REST API:
+Using mindsdb rest api to fetch response from trained model.
+![UI image](dolphy/src/assets/img/UI3.png)
+
+
 ## Current Progress
 | YouTube Video |
 |----------------|

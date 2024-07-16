@@ -5,9 +5,9 @@ Dolphy is an innovative healthcare platform inspired by the dolphin, symbolizing
 Dolphy integrates MindsDB for machine learning model creation and training. Users input symptoms, and Dolphy sends these to a MindsDB model to deliver accurate disease predictions and precautionary measures. An integrated AI agent powered by Google Gemini provides tailored precautions for identified diseases.
 
 ## Features ✨
-Disease Prediction: Users input symptoms to receive precise disease predictions.
-Precautionary Advice: Integrated AI agent powered by Google Gemini provides tailored precautions for identified diseases.
-Technological Stack: Flask serves as the robust backend server, handling data processing and model inference, while React offers a dynamic and responsive user interface.
+1. Disease Prediction: Users input symptoms to receive precise disease predictions.
+2. Precautionary Advice: Integrated AI agent powered by Google Gemini provides tailored precautions for identified diseases.
+3. Technological Stack: Flask serves as the robust backend server, handling data processing and model inference, while React offers a dynamic and responsive user interface.
 
 ## Future Enhancements 🌟
 1. Advanced AI Integration: Plan to replace Google Gemini with a chatbot trained on MindsDB using LangChain and OpenAI GPT-4 for enhanced interaction and intelligent responses.

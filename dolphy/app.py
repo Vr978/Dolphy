@@ -20,7 +20,7 @@ df = pd.read_csv('/Users/vrajchaudhari/Desktop/Dolphy/dolphy/Training.csv')
 unique_diseases = df['prognosis'].unique()
 disease_dict = {index: disease for index, disease in enumerate(unique_diseases)}
 
-GOOGLE_API_KEY = 'AIzaSyBB0D8alzICGChXB62i8B68UqwlKrIiOh4'
+GOOGLE_API_KEY = 'YOUR_API_KEY'
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 

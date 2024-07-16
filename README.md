@@ -17,6 +17,12 @@ Dolphy integrates MindsDB for machine learning model creation and training. User
 
 The Current Project uses Gemini-pro for text generation. Prompt Engineering is done to provide clear cut precautions for each disease.
 
+## MINDSDB USAGE VIDEO
+| YouTube Video |
+|----------------|
+|<a href="https://youtu.be/oe7KeRByM7Y"><img src="dolphy/src/assets/img/UI2.png"></a>
+
+
 ## UI Design
 ![UI image](dolphy/src/assets/img/UI1.png)
 ![UI image](dolphy/src/assets/img/UI2.png)
@@ -30,6 +36,8 @@ Using mindsdb rest api to fetch response from trained model.
 | YouTube Video |
 |----------------|
 |<a href="https://youtu.be/_97JjadCFOs"><img src="dolphy/src/assets/img/UI2.png"></a>
+
+
 
 ## Getting Started
 
